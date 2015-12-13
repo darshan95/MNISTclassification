@@ -1,0 +1,32 @@
+Subhransu Maji (smaji@cs.berkeley.edu)
+Nov 13, 2009
+--------------------------------------------------------
+Contains code for experiments on the MNIST dataset.
+
+rawfeatdemo.m - experiments using raw pixel features 
+and SVMs trained using linear, intersection, polynomial
+and rbf kernels. uses 200 training examples as default.
+
+sphogdemo.m - experiments using spatial pyramid histograms
+of oriented gradients and SVMs training using linear and
+intersection kernel SVMs.
+--------------------------------------------------------
+Folder description:
++classifiers
+    /liblinear-1.5-dense - LIBLINEAR modified for dense data
+    /libsvm-mat-2.84-1-fast.v3 - LIBSVM with support for 
+     intersection kernel SVM and fast prediction using the 
+     technique proposed in our CVPR'08 paper.
+
++data 
+    MNIST dataset downloaded from 
+
++io
+    code to read/normalize the data
+
++feat-code
+    code to compute sphog features 
+
++training
+    code to train/test models
+----------------------------------------------------------

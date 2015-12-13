@@ -1,0 +1,72 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013b (8.2.0.701) 64-bit (glnxa64)
+                              August 13, 2013
+
+Warning: X does not support locale en_IN
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+0.0101s to read training labels
+0.0092s to read test labels
+3.3731s to read 60000 training images
+0.3027s to read test images
+1.2516s to l2 normalize features
+39.90s to load precomputed features..
+
+
+ --- INTERSECTION KERNEL SVM --- 
+
+ Training MNIST Classifiers with 60000 examples (feat dim=2172).
+
+Training for Digit : 0, 	 5923+/54077- (-t 4 -d 5 -r 1.00 -g 1.00 -c 10.0 -w2 9.13 -b 1)
+	 3880.53s to train model
+
+Training for Digit : 1, 	 6742+/53258- (-t 4 -d 5 -r 1.00 -g 1.00 -c 10.0 -w2 7.90 -b 1)
+	 2811.54s to train model
+
+Training for Digit : 2, 	 5958+/54042- (-t 4 -d 5 -r 1.00 -g 1.00 -c 10.0 -w2 9.07 -b 1)
+	 7789.13s to train model
+
+Training for Digit : 3, 	 6131+/53869- (-t 4 -d 5 -r 1.00 -g 1.00 -c 10.0 -w2 8.79 -b 1)
+	 7701.00s to train model
+
+Training for Digit : 4, 	 5842+/54158- (-t 4 -d 5 -r 1.00 -g 1.00 -c 10.0 -w2 9.27 -b 1)
+	 5669.30s to train model
+
+Training for Digit : 5, 	 5421+/54579- (-t 4 -d 5 -r 1.00 -g 1.00 -c 10.0 -w2 10.07 -b 1)
+	 6835.81s to train model
+
+Training for Digit : 6, 	 5918+/54082- (-t 4 -d 5 -r 1.00 -g 1.00 -c 10.0 -w2 9.14 -b 1)
+	 4365.82s to train model
+
+Training for Digit : 7, 	 6265+/53735- (-t 4 -d 5 -r 1.00 -g 1.00 -c 10.0 -w2 8.58 -b 1)
+	 6421.61s to train model
+
+Training for Digit : 8, 	 5851+/54149- (-t 4 -d 5 -r 1.00 -g 1.00 -c 10.0 -w2 9.25 -b 1)
+	 10103.88s to train model
+
+Training for Digit : 9, 	 5949+/54051- (-t 4 -d 5 -r 1.00 -g 1.00 -c 10.0 -w2 9.09 -b 1)
+	 9467.61s to train model
+Classifying for Digit :  0 
+Classifying for Digit :  1 
+Classifying for Digit :  2 
+Classifying for Digit :  3 
+Classifying for Digit :  4 
+Classifying for Digit :  5 
+Classifying for Digit :  6 
+Classifying for Digit :  7 
+Classifying for Digit :  8 
+Classifying for Digit :  9 
+
+
+Accuracy on MNIST 99.21% (0.79%) 
+9471.65s to classify all examples
+	-------------------------
+	 Method	 Acc(%)	 Err(%)
+	-------------------------
+	 IKSVM	99.21%	 0.79%
+>> Time in seconds: 65110
+Pretty format: 00:18:05:10

@@ -1,0 +1,8 @@
+*****Darshan Agarwal : 201225189
+The Codes folder contains three sub directories : Part1, Part2, Part3.
+Which have their respective codes
+The file 1.m contains the code for the stage 1 running of classifiers
+The file 4.m contains the code for part4 pca.
+The Part1 contains the KNN codes for both the datasets and the codes to read the data
+The Part2 contains the code of the paper and the codes written.
+The Part3 contains the codes for the euclidean and tangent distances
